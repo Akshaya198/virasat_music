@@ -1,0 +1,45 @@
+
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .nav-links a {
+    font-size: small;
+    margin-right: 15px;
+  }
+
+  .intro {
+    background-size: cover;
+    justify-content: center;
+  }
+
+  .music-card {
+    width: 100%;
+    max-width: 200px;
+  }
+.regional-music-section{
+  display: flex;
+  flex-direction: column;
+
+}
+.plate{
+  flex:0.5;
+
+}
+  .classical-title {
+    width: 150px;
+  }
+
+  .sticky-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .plate {
+    font-size: smaller;
+    padding: 5px;
+  }
+}
